@@ -1,0 +1,35 @@
+need_statement_task:
+  description: >
+    Analyze the user's project idea, target beneficiaries,
+    and funding requirements.
+
+    Write a compelling need statement explaining the problem,
+    its impact on the community, and why action is needed.
+
+  expected_output: >
+    A persuasive and well-structured need statement section.
+
+  agent: need_writer
+
+
+project_plan_task:
+  description: >
+    Create a detailed implementation plan including SMART objectives,
+    activities, timelines, and expected outcomes.
+
+  expected_output: >
+    A complete project plan with objectives, activities,
+    timeline, and measurable outcomes.
+
+  agent: project_writer
+
+
+budget_narrative_task:
+  description: >
+    Prepare a detailed budget narrative including estimated expenses,
+    budget categories, and justifications for each cost.
+
+  expected_output: >
+    A structured budget narrative aligned with project goals.
+
+  agent: budget_writer
